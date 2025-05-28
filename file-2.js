@@ -1,4 +1,5 @@
 let a = 10;
+let b = 20
 
 // module.exports = a;
 
@@ -6,7 +7,8 @@ const add = (param1, param2) => param1 + param2;
 
 module.exports = {
     a,
-    add
+    add, 
+    b
 }
 
-console.log(module);
+// console.log(module);
